@@ -1,0 +1,90 @@
+.displaytable{
+    height: 80%;
+    width: auto;
+  }
+  .header{
+    height: 150px;
+    width: auto;
+    background-color: rgb(0, 0, 0);
+    size: 0cqmax;
+    font-size: medium;
+    color: rgb(255, 253, 248);
+    border-radius: 5px;
+}
+
+.back{
+    background-color: rgb(162, 240, 216);
+    height: auto;
+}
+
+#heading{
+    text-align: center;
+    text-decoration: solid;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+button{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: rgb(253, 253, 253);
+    height: fit-content;
+    width: fit-content;
+    margin-top: 15px;
+    margin-left: 190px;
+    background: #000000;
+    box-shadow:  20px 20px 60px #1b1e20, -20px -20px 60px #191b1c;
+}
+
+#b1{
+    text-align: left;
+    border : none;
+    border-radius: 0px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+
+#k1{
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 30px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    margin-left: 25px;
+}
